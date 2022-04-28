@@ -1,6 +1,13 @@
-body{
+body, html {
     font-family: Arial;
     background-color: rgb(230, 230, 230);
+    background-image: url('fondo.jpg');
+    /* Full height */ 
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .contenedor{
     position: relative;
@@ -23,7 +30,7 @@ body{
 
 .form-login {
     width: 400px;
-    height: 400px;
+    height: 350px;
     background: #4e4d4d;
     margin: auto;
     margin-top: 180px;
